@@ -31,6 +31,9 @@ The goal of this project is to understand the internal mechanics of regression m
 
 ## Project Structure
 
-```text
-advertising_regression/
-ames_housing_regression/
+```md
+- **advertising_regression/**  
+  Implements simple and multiple linear regression using batch gradient descent, applied to the Advertising dataset to study feature influence and model convergence.
+
+- **ames_housing_regression/**  
+  Implements multiple linear regression with feature normalization and batch gradient descent on the Ames Housing dataset, demonstrating scalability and inference consistency.
